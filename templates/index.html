@@ -1,0 +1,73 @@
+{% extends "layout.html" %} {% block body %}
+<header
+  class="masthead"
+  style="background-image: url('{{ url_for('static', filename='assets/img/pet-1.jpg') }} ')"
+>
+  <div class="container position-relative px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7">
+        <div class="site-heading">
+          <h1>Pets</h1>
+          <span class="subheading">A Blog For Every Pet</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Main Content-->
+<div class="container px-4 px-lg-5">
+  <div class="row gx-4 gx-lg-5 justify-content-center">
+    <div class="col-md-10 col-lg-8 col-xl-7">
+      <div class="post-preview">
+        <a href="/post/first-post">
+          <h2 class="post-title">
+            BENEBONE: THE ULTIMATE CHEW TOY FOR DOGS, NOW IN INDIA
+          </h2>
+          <h3 class="post-subtitle">
+            Coming back to the house and finding your favourite shoes or new
+            carpet chewed is never fun. There are several reasons why your furry
+            friend chews on things. It is normal behaviour of your canine to
+            chew. Our furry pals love chewing as it accomplishes a number of
+            <!-- things for them. For young dogs, it is a way to relieve pain, and
+            for older dogs, it is a way of cleaning and keeping jaws healthy.
+            Understanding the reason why your dog chomps on everything is
+            necessary. In this blog, we will provide an ultimate chew toy to
+            save your favourite shoes from getting chewed. So, keep reading to
+            find a great solution to your dog's chewing behaviour. -->
+          </h3>
+        </a>
+        <p class="post-meta">
+          Posted by
+          <a href="/">Krishnkant Nagda</a>
+          on September 24, 2022
+        </p>
+      </div>
+      <!-- Divider-->
+      <hr class="my-4" />
+      <div class="card mb-3">
+        <img src="https://cdn.shopify.com/s/files/1/1199/8502/articles/1_72891b74-ddce-4a91-b51a-5943706a565a_1024x1024.jpg?v=1658555292" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pitbull’s attack in Lucknow; Should we fear or work on a solution?</h5>
+          <p class="card-text">  Your canine companion always offers you comfort and ease. Even your saddest days become fun by cuddling your dog. You will always find your four-legged friend wagging his tail on the</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <!-- <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+        <img src="..." class="card-img-bottom" alt="..."> -->
+      <!-- </div> -->
+
+      <!-- Divider-->
+      <hr class="my-4" />
+      <!-- Pager-->
+      <div class="d-flex justify-content-end mb-4">
+        <a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

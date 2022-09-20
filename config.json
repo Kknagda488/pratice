@@ -1,0 +1,16 @@
+{
+    "params":
+    {
+        "local_server": "True",
+        "local_uri": "mysql://root:@localhost/petnation",
+        "prod_uri":"mysql://root:@localhost/petnation",
+        "fb_url": "https://facebook.com/petnation",
+        "ig_url": "https://instagram.com/udaipur_pet_nation",
+        "wt_url": "https://chat.whatsapp.com/EOWkMvCovISK9BRrtcf6To",
+        "tw_url": "https://twitter.com/petnation",
+        "gmail-user": "kknagda488@gmail.com",
+        "gmail-password": "cpyozwlnpynpihch",
+        "secret_key": "thisissecret"
+
+    }
+}
