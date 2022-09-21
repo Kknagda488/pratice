@@ -2,8 +2,8 @@
     "params":
     {
         "local_server": "True",
-        "local_uri": "mysql://root:@localhost/petnation",
-        "prod_uri":"mysql://root:@localhost/petnation",
+        "local_uri": "sqlite:///petnation.db",
+        "prod_uri":"sqlite:///petnation.db",
         "fb_url": "https://facebook.com/petnation",
         "ig_url": "https://instagram.com/udaipur_pet_nation",
         "wt_url": "https://chat.whatsapp.com/EOWkMvCovISK9BRrtcf6To",

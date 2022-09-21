@@ -23,7 +23,7 @@ if(local_server):
 else:
     app.config[ 'SQLALCHEMY_DATABASE_URI' ] = params['prod_uri']
 
-
+app.config[ 'SQLALCHEMY_TRACK_MODIFICATIONS' ] = False
 app.config['SECRET_KEY'] = params['secret_key']
 db = SQLAlchemy(app)
 login_manager=LoginManager()
@@ -65,7 +65,7 @@ def load_user(user_id):
     return Users.query.get(int(user_id))
     
 
-@app.route('/home')
+@app.route('/')
 def home():
     return render_template('index.html', params=params)
 
