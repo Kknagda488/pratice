@@ -143,7 +143,9 @@ def signup():
 def logout():
     logout_user()
     return redirect('/')
-
+@app.route("/dev")
+def dev():
+    return "its devraj"
 
 
 if __name__ == "__main__":
